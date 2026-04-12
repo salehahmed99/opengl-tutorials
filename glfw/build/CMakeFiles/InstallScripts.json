@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/opengl/glfw-tutorial/build/cmake_install.cmake",
+		"/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/opengl/glfw-tutorial/build/glfw-3.4/cmake_install.cmake",
+		"/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/opengl/glfw-tutorial/build/glfw-3.4/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

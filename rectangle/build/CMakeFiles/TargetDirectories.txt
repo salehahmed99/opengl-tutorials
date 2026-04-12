@@ -1,0 +1,9 @@
+/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3-square/build/CMakeFiles/main.dir
+/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3-square/build/CMakeFiles/edit_cache.dir
+/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3-square/build/CMakeFiles/rebuild_cache.dir
+/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3-square/build/vendor/glfw-3.4/CMakeFiles/edit_cache.dir
+/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3-square/build/vendor/glfw-3.4/CMakeFiles/rebuild_cache.dir
+/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3-square/build/vendor/glfw-3.4/src/CMakeFiles/glfw.dir
+/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3-square/build/vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir
+/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3-square/build/vendor/glfw-3.4/src/CMakeFiles/edit_cache.dir
+/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3-square/build/vendor/glfw-3.4/src/CMakeFiles/rebuild_cache.dir

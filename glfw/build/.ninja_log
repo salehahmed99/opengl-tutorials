@@ -1,0 +1,26 @@
+# ninja log v7
+1	432	1775114161016476436	glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o	faf9ccb2320c0196
+1	442	1775114161015848479	glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o	42b3a0d9ed07cc26
+1	444	1775114161016128978	glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o	ab25d50b77f9477d
+3	445	1775114161017751972	glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o	17c7493cf89880af
+4	449	1775114161018766802	glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o	9c3032e5a7f59f92
+2	459	1775114161016639352	glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o	1ccfb2d7d371a838
+2	461	1775114161016953059	glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o	f5a1e7833cd06326
+0	468	1775114161015451523	glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o	d13f0c8c8bde284f
+1	481	1775114161016246645	glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o	a79e21d4f5b34b45
+1	509	1775114161016006395	glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o	cd144a8f51954b5a
+2	517	1775114161016819434	glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o	213794da74f79667
+2	564	1775114161017283766	glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o	79133be1f94bb2e6
+517	583	1775114161532009411	CMakeFiles/main.dir/glad/src/glad.c.o	1332e293528867ec
+445	732	1775114161460287092	glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o	be114540d096f33b
+444	737	1775114161458883472	glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o	e29c639c35484da8
+442	748	1775114161457379144	glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o	d2fea5fd0e014953
+435	756	1775114161449899505	glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o	ac0579308b36ab9c
+459	966	1775114161474072374	glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o	f5bb36fd0f67b88b
+482	970	1775114161496646166	glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o	7ff69d31eca268a8
+461	971	1775114161476062492	glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o	4620627b2510a8ab
+449	972	1775114161463840037	glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o	932eefa3ce788c3b
+468	990	1775114161483530423	glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o	38add3295f42ab29
+10	47	1775114203704138909	glfw-3.4/src/libglfw3.a	6fd846c7b97d977f
+9	189	1775114226387320168	CMakeFiles/main.dir/main.cpp.o	ff2e0459aefc62f1
+190	322	1775114226567827377	main	50783e514f923680

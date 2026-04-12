@@ -1,0 +1,146 @@
+[
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build",
+  "command": "/usr/bin/c++  -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -g -arch arm64 -o CMakeFiles/main.dir/main.cpp.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/main.cpp",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build",
+  "command": "/usr/bin/cc  -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -g -arch arm64 -o CMakeFiles/main.dir/vendor/glad/src/glad.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/src/glad.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/src/glad.c",
+  "output": "CMakeFiles/main.dir/vendor/glad/src/glad.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build",
+  "command": "/usr/bin/c++  -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -g -arch arm64 -o CMakeFiles/main.dir/vendor/stb_image/stb_image.cpp.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/stb_image/stb_image.cpp",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/stb_image/stb_image.cpp",
+  "output": "CMakeFiles/main.dir/vendor/stb_image/stb_image.cpp.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/context.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/context.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/init.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/init.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/init.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/input.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/input.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/input.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/monitor.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/monitor.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/platform.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/platform.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/platform.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/vulkan.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/vulkan.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/window.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/window.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/window.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/egl_context.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/egl_context.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/osmesa_context.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/osmesa_context.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/null_init.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/null_init.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/null_init.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/null_monitor.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/null_monitor.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/null_monitor.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/null_window.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/null_window.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/null_window.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/null_joystick.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/null_joystick.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/null_joystick.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_time.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_time.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_module.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/posix_module.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/posix_module.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/posix_thread.c",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/posix_thread.c",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_init.m",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_init.m",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_joystick.m",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_joystick.m",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_monitor.m",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_monitor.m",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_window.m",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/cocoa_window.m",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
+},
+{
+  "directory": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src",
+  "command": "/usr/bin/cc -D_GLFW_COCOA -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glad/include -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glm -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src -I/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/build/vendor/glfw-3.4/src -g -std=c99 -arch arm64 -fPIC -Wall -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/nsgl_context.m",
+  "file": "/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/learn-opengl/textures-tutorial/vendor/glfw-3.4/src/nsgl_context.m",
+  "output": "vendor/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
+}
+]
