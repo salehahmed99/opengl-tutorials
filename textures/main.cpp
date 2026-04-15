@@ -114,9 +114,9 @@ int main()
 
     // load and create a texture
     // -------------------------
-    GLuint texture;
-    glGenTextures(1, &texture);
-    glBindTexture(GL_TEXTURE_2D, texture);
+    GLuint texture1;
+    glGenTextures(1, &texture1);
+    glBindTexture(GL_TEXTURE_2D, texture1);
 
     // texture wrapping:
     // ------------------
@@ -158,7 +158,7 @@ int main()
 
     int width, height, nrChannels;
     stbi_set_flip_vertically_on_load(true); // tell stb_image.h to flip loaded texture's on the y-axis.
-    unsigned char *data = stbi_load("assets/textures/awesomeface.png", &width, &height, &nrChannels, 0);
+    unsigned char *data = stbi_load("assets/textures/container.jpg", &width, &height, &nrChannels, 0);
     if (data)
     {
         // glTexImage2D parameters:
@@ -174,6 +174,31 @@ int main()
         //           e.g. your image might have GL_RGBA (4 channels) but you only want to store GL_RGB (3 channels) on the GPU.
         // - type: the data type of each channel in your buffer. GL_UNSIGNED_BYTE means each R, G, B value is stored as a byte (0–255).
         // - data: pointer to the actual pixel data in memory
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+        glGenerateMipmap(GL_TEXTURE_2D);
+    }
+    else
+    {
+        std::cout << "Failed to load texture" << std::endl;
+    }
+    stbi_image_free(data);
+
+    // texture 2
+    // ---------
+    GLuint texture2;
+    glGenTextures(1, &texture2);
+    glBindTexture(GL_TEXTURE_2D, texture2);
+
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+    data = stbi_load("assets/textures/awesomeface.png", &width, &height, &nrChannels, 0);
+    if (data)
+    {
+        // note that the awesomeface.png has transparency and thus an alpha channel, so make sure to tell OpenGL the data type is of GL_RGBA
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
         glGenerateMipmap(GL_TEXTURE_2D);
     }
@@ -182,6 +207,10 @@ int main()
         std::cout << "Failed to load texture" << std::endl;
     }
     stbi_image_free(data);
+
+    glUseProgram(program); // don't forget to activate/use the shader before setting uniforms!
+    glUniform1i(glGetUniformLocation(program, "texture1"), 0); // sampler reads unit 0
+    glUniform1i(glGetUniformLocation(program, "texture2"), 1); // sampler reads unit 1
 
     glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 
@@ -200,7 +229,13 @@ int main()
 
         glUseProgram(program);
         glBindVertexArray(VAO);
-        glBindTexture(GL_TEXTURE_2D, texture);
+
+        // bind textures on corresponding texture units
+        glActiveTexture(GL_TEXTURE0);           // "I'm now talking about slot 0"
+        glBindTexture(GL_TEXTURE_2D, texture1); // "plug texture1 into slot 0"
+        glActiveTexture(GL_TEXTURE1);           // "I'm now talking about slot 1"
+        glBindTexture(GL_TEXTURE_2D, texture2); // "plug texture2 into slot 1"
+
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_SHORT, 0);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
@@ -208,6 +243,12 @@ int main()
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
+
+    // optional: de-allocate all resources once they've outlived their purpose:
+    // ------------------------------------------------------------------------
+    glDeleteVertexArrays(1, &VAO);
+    glDeleteBuffers(1, &VBO);
+    glDeleteBuffers(1, &EBO);
 
     // glfw: terminate, clearing all previously allocated GLFW resources.
     // ------------------------------------------------------------------
