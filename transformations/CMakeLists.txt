@@ -17,6 +17,10 @@ set(GLFW_USE_HYBRID_HPG ON CACHE BOOL "" FORCE)     # Set GLFW_USE_HYBRID_HPG va
 
 add_subdirectory(vendor/glfw-3.4)
 
-add_executable(main main.cpp vendor/glad/src/glad.c)
+add_executable(main
+    main.cpp
+    vendor/glad/src/glad.c
+    vendor/stb_image/stb_image.cpp
+)
 
 target_link_libraries(main glfw)
