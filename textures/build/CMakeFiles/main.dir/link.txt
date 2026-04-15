@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/vendor/glad/src/glad.c.o CMakeFiles/main.dir/vendor/stb_image/stb_image.cpp.o -o main  vendor/glfw-3.4/src/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation

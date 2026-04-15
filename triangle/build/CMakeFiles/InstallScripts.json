@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3/build/cmake_install.cmake",
-		"/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3/build/vendor/glfw-3.4/cmake_install.cmake",
-		"/Users/blitza/Desktop/Uni/Year3/SecondTerm/Graphics/dr-yehya-tutorials/week3/build/vendor/glfw-3.4/src/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
