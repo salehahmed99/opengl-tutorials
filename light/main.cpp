@@ -20,7 +20,7 @@ const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
 // camera
-Camera camera(glm::vec3(0.0f ,0.0f, 3.0f));
+Camera camera(glm::vec3(0.0f ,0.0f, 2.0f));
 float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
@@ -30,7 +30,7 @@ float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
 // lighting
-glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
+glm::vec3 lightPos(0.0f, 0.0f, 3.0f);
 
 int main()
 {
@@ -167,20 +167,27 @@ int main()
         float time = glfwGetTime();
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 0.0f));
+        glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -1.0f));
         glm::mat4 view = camera.GetViewMatrix();
         glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
 
         objectShader.use();
+        objectShader.setVec3("light.position", lightPos);
+        objectShader.setVec3("view_pos", camera.Position);
 
         objectShader.setMat4("model", model);
         objectShader.setMat4("view", view);
         objectShader.setMat4("projection", projection);
 
-        objectShader.setVec3("object_color", 1.0f, 0.5f, 0.31f);
-        objectShader.setVec3("light_color", 1.0f, 1.0f, 1.0f);
-        objectShader.setVec3("light_pos", lightPos);
-        objectShader.setVec3("view_pos", camera.Position);
+        objectShader.setVec3("material.ambient", 1.0f, 0.5f, 0.31f);
+        objectShader.setVec3("material.diffuse", 1.0f, 0.5f, 0.31f);
+        objectShader.setVec3("material.specular", 0.5f, 0.5f, 0.5f);
+        objectShader.setFloat("material.shininess", 128.0f);
+
+
+        objectShader.setVec3("light.ambient", 0.2f, 0.2f, 0.2f);
+        objectShader.setVec3("light.diffuse", 0.5f, 0.5f, 0.5f);    //  darken diffuse light a bit
+        objectShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);
 
         // render the object
         glBindVertexArray(objectVAO);
@@ -191,7 +198,7 @@ int main()
         lampShader.use();
 
         model = glm::translate(glm::mat4(1.0f), lightPos);
-        model = glm::scale(model, glm::vec3(0.2f)); // a smaller cube
+        model = glm::scale(model, glm::vec3(0.5f)); // a smaller cube
 
         lampShader.setMat4("model", model);
         lampShader.setMat4("view", view);
