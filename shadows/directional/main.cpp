@@ -358,10 +358,11 @@ void renderScene(const Shader &shader){
         glBindVertexArray(planeVAO);
         glDrawArrays(GL_TRIANGLES, 0, 6);
 
+        float time = (float)glfwGetTime();
         // 2- render cubes
         // cube 1
         model = glm::mat4(1.0f);
-        model = glm::translate(model, glm::vec3(0.0f, 1.5f, 0.0));
+        model = glm::translate(model, glm::vec3(sinf(time), 1.5f, cosf(time)));
         model = glm::scale(model, glm::vec3(1.0f));
         shader.setMat4("model", model);
         glBindVertexArray(cubeVAO);
