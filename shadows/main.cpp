@@ -82,7 +82,7 @@ int main()
 
     Shader frameBufferShader("assets/shaders/framebuffer.vs", "assets/shaders/framebuffer.fs");
     // Shader debugDepthQuadShader("assets/shaders/debug_quad.vs", "assets/shaders/debug_quad.fs");
-    Shader screenShader("assets/shaders/screen.vs", "assets/shaders/screen.fs");
+    Shader screenShader("assets/shaders/screen.vs", "assets/shaders/screen-pcf.fs");
 
  float planeVertices[] = {
         // positions            // normals         // texcoords
