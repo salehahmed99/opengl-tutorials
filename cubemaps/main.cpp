@@ -195,12 +195,12 @@ int main()
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
 
     std::vector<std::string> faces = {
-        "assets/textures/skybox/right.jpg",
-        "assets/textures/skybox/left.jpg",
-        "assets/textures/skybox/top.jpg",
-        "assets/textures/skybox/bottom.jpg",
-        "assets/textures/skybox/front.jpg",
-        "assets/textures/skybox/back.jpg"};
+        "assets/textures/skybox/px.jpg",
+        "assets/textures/skybox/nx.jpg",
+        "assets/textures/skybox/py.jpg",
+        "assets/textures/skybox/ny.jpg",
+        "assets/textures/skybox/pz.jpg",
+        "assets/textures/skybox/nz.jpg"};
 
     GLuint cubeMapTexture = loadCubeMap(faces);
 
